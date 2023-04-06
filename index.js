@@ -1,4 +1,5 @@
 const fs = require('fs');
+
 // Read input file and parse data
 const input = fs.readFileSync('input.txt', 'utf8');
 const lines = input.split('\n');
